@@ -8,7 +8,7 @@ class PagesController extends Controller
 {
     public function index(){
         $title = 'MODERN DIGITAL';
-        return view('pages.index', compact('title'));
+        return view('_particles.landing', compact('title'));
     }
 
     public function about(){
