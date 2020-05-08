@@ -4,17 +4,19 @@
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
     <meta charset="utf-8">
-    <title>ModernDigital</title>
-    <meta name="description" content="Xlight Bootstrap Responsive HTML5/CSS3 Template">
-    <meta name="author" content="Andsolutions.it">
-    <meta name="description" content="">
+    <title>Welcome to ModernDigital</title>
+    <meta name="description" content="One Stop Destination to All Your Household Needs">
+    <!-- <meta name="author" content="Andsolutions.it">
+    <meta name="description" content=""> -->
 	
     <link href="{{ URL::asset('site_assets/css/bootstrap.min.css') }}" rel="stylesheet">
-	<link href="{{ URL::asset('site_assets/css/bootstrap-theme.min.css') }}css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="{{ URL::asset('site_assets/css/bootstrap-theme.min.css') }}" rel="stylesheet">
 	<link href="{{ URL::asset('site_assets/css/animate.min.css') }}" rel="stylesheet" >	
 	<link href="{{ URL::asset('site_assets/css/font-awesome.min.css') }}" rel="stylesheet">	
 	<link href="{{ URL::asset('site_assets/css/prettyPhoto.css') }}" rel="stylesheet">
-	
+	<link rel="stylesheet" type="text/css" href="{{ URL::asset('site_assets/css/main_styles.css') }}">
+	<link rel="stylesheet" href="{{ URL::asset('site_assets/css/aos.css') }}">
+
 	<link href="{{ URL::asset('site_assets/css/theme.css') }}" rel="stylesheet">	
 	<link href="{{ URL::asset('site_assets/css/responsive.css') }}" rel="stylesheet">
 	<link href="{{ URL::asset('site_assets/css/colors/blue.css') }}" rel="stylesheet" class="colors">
@@ -24,11 +26,11 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
     
 	<!-- Favicons -->
-    <link rel="shortcut icon" href="{{ URL::asset('site_assets/images/ico/images.png') }}">	
-    <link rel="apple-touch-icon" href="{{ URL::asset('site_assets/images/ico/apple-touch-icon.png') }}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ URL::asset('site_assets/images/ico/apple-touch-icon-72.png') }}">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ URL::asset('site_assets/images/ico/apple-touch-icon-114.png') }}">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ URL::asset('site_assets/images/ico/apple-touch-icon-144.png') }}">
+    <link rel="shortcut icon" href="{{ URL::asset('site_assets/images/ico/images.gif') }}">	
+    <link rel="apple-touch-icon" href="{{ URL::asset('site_assets/images/ico/image1.gif') }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ URL::asset('site_assets/images/ico/image2.gif') }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ URL::asset('site_assets/images/ico/image3.gif') }}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ URL::asset('site_assets/images/ico/image4.gif') }}">
 
 </head>
 
@@ -74,5 +76,7 @@
 	<script src="{{ URL::asset('site_assets/js/jquery.knob.min.js') }}"></script>	
 	<script src="{{ URL::asset('site_assets/js/jquery.validate.min.js') }}"></script>
 	<script src="{{ URL::asset('site_assets/js/custom.js') }}"></script>
+	<script src="{{ URL::asset('site_assets/js/aos.js') }}"></script>
+	<script src="{{ URL::asset('site_assets/js/switcher/switcher.js') }}"></script>
 </body>
 </html>

@@ -281,6 +281,10 @@ cite {
 	padding-bottom: 40px;
 }
 
+#home-slider .item{
+    height: auto !important;
+}
+
 .carousel-fade .carousel-inner .item {
 	opacity: 0;
 	-webkit-transition-property: opacity;
@@ -319,7 +323,8 @@ cite {
 
 .left-control, .right-control {
 	position: absolute;
-	top: 50%;
+    top: 50%;
+   
 	height: 51px;
 	width: 51px;
 	line-height: 48px;
@@ -422,7 +427,7 @@ cite {
 
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  max-height: 200px;	/* Scrollable Menu */
+  max-height: 100px;	/* Scrollable Menu */
   border-color: #fff;
 }
 
@@ -453,7 +458,12 @@ cite {
 	-moz-transition: all 0.5s ease-in-out 0s;
 	-o-transition: all 0.5s ease-in-out 0s;
 	transition: all 0.5s ease-in-out 0s;
-	z-index: 99999 !important;
+    z-index: 99999 !important;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
 }
 
 
@@ -1524,7 +1534,7 @@ h3.entry-title {
 
 .stay-in{
 	/* background: none no-repeat scroll 0 0 #4d4d4d; */
-	background-image: url("../images/contact-bg.jpg");
+	background-image: url("../images/speaker.gif");
 	/* padding: 40px 0 60px; */
 }
 

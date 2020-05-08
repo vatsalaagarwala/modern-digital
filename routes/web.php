@@ -14,9 +14,11 @@
 Route::get('/', 'PagesController@index');
 
 
-Route::get('/about', 'PagesController@about');
+Route::get('/signup', 'PagesController@signup');
 
 Route::get('/services', 'PagesController@services');
+
+
 
 // Route::get('/user/{id}', function ($id) {
     // return 'This is user'.$id;

@@ -11,9 +11,9 @@ class PagesController extends Controller
         return view('_particles.landing', compact('title'));
     }
 
-    public function about(){
-        $title = 'ABOUT US';
-        return view('pages.about')->with('title',$title);
+    public function signup(){
+        $title = 'SIGN UP';
+        return view('_particles.signup')->with('title',$title);
     }
 
     public function services(){
