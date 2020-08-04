@@ -15,8 +15,12 @@ Route::get('/', 'PagesController@index');
 
 
 Route::get('/signup', 'PagesController@signup');
+Route::post("/signup", "PagesController@postSignup");
 
-Route::get('/services', 'PagesController@services');
+Route::get('/signin', 'PagesController@signin');
+Route::post('/signin', 'PagesController@postSignin');
+
+// Route::get('/services', 'PagesController@services');
 
 
 
